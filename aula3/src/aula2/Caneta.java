@@ -20,6 +20,7 @@ public class Caneta {
             System.out.println("Estou rabiscando.");
     
       }
+   
 }
     void tampar() {
        this.tampada = true

@@ -4,10 +4,10 @@ public class Aula2 {
        Caneta c1 = new Caneta();
        
        c1.status();
-     
+       c1.modelo "Fabber Castell";
        
      void rabiscar {
-          System.out.println("estou rabiscando e estou escrevendo comn todos os atributos ");
+          System.out.println("estou rabiscando e estou escrevendo com todos os atributos ");
       
     }
     
