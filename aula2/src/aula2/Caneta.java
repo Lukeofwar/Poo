@@ -22,10 +22,10 @@ public class Caneta {
       }
 }
     void tampar() {
-       this.tampada = true
+       this.tampada = true;
     }
     void destampar() {  
-        this.tampada = false
+        this.tampada = false;
     }
     
 }

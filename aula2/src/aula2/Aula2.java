@@ -11,7 +11,7 @@ public class Aula2 {
        
        Caneta c2 = new Caneta();
        c2.modelo = "Faber Catell";
-       c2.cor = "preta"
+       c2.cor = "preta";
        c2.ponta = 2.5f;
        c2.rabiscar();
        c2.status();
