@@ -21,10 +21,10 @@ public class Lutador {
            System.out.println("Empatou: " + this.getEmpates());
        }
        public void status() {
-           System.out.println(this.getNome() + " é um peso " + this.getCategoria());
+           System.out.println(this.getNome() + " é um peso " + this.getCategoria()) ;
            System.out.println("Ganhou " + this.getVitorias() + " vezes");
-           System.out.println("Perdeu " + this.getDerrotas() + "vezes");
-           System.out.println("Empatou " + this.getEmpates() + "vezes");
+           System.out.println("Perdeu " + this.getDerrotas() + " vezes");
+           System.out.println("Empatou " + this.getEmpates() + " vezes");
        }
        public void ganharLuta() {
            this.setVitorias(this.getVitorias() + 1);
@@ -39,8 +39,8 @@ public class Lutador {
 
     public Lutador(String no, String na, float id, float al,
             float pe, int vi, int de, int em) {
-        
-        this.nome = no;
+         
+        this.nome = no ;
         this.nacionalidade = na;
         this.idade = id;
         this.altura = al;
