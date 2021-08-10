@@ -14,6 +14,7 @@ public class Aula12 {
        Arara e = new Arara();
        
        c.locomover();
+       k.locomover();
     }
     
 }
